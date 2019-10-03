@@ -3,8 +3,8 @@ title: "3-ImportingData"
 output: html_notebook
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+plot(cars)
 ```
 
 ## R Markdown
