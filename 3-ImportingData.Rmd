@@ -18,4 +18,17 @@ X3_2_data[1:6,]
 install.packages('quantmod')
 library("quantmod")
 ```
+```{r}
+getSymbols("AAPL")
+```
+```{r}
+barChart(AAPL)
+```
+```{r}
+barChart(AAPL, subset ='last 28 days')
+```
+```{r}
+rm(AAPL)
+```
+
 
